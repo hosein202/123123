@@ -1,0 +1,86 @@
+:root {
+    --a: #222831;
+    --b: #393e46;
+    --c: #00adb5;
+    --d: #eeeeee;
+}
+*{
+    
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "popins-b";
+    background-color: var(--a);
+    color: #eeeeee;
+}
+
+.header {
+    margin-top: 1.58rem;
+}
+
+.container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_logo {
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--d);
+   
+   
+    
+}
+a.nav_logo:hover{
+    color: var(--c);
+    transition: 1s;
+
+}
+    
+
+.logo-p {
+   
+   font-size: 25px;
+   cursor: help;
+   font-family:'b';
+   
+}
+
+.menue_list {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--d);
+    
+}
+
+.class_list_item {
+    font-family: "popins-s";
+    color: #eeeeee;
+}
+
