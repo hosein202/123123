@@ -83,4 +83,55 @@ a.nav_logo:hover{
     font-family: "popins-s";
     color: #eeeeee;
 }
+.loby {
+    position: relative;
+}
 
+.pic-b {
+    position: absolute;
+    right: 2rem;
+    top: 6rem;
+    z-index: 1;
+}
+
+.pic-f {
+    position: absolute;
+    right: 15rem;
+    top: 15rem;
+    z-index: 2;
+}
+
+.title {
+    position: absolute;
+    left: 20rem;
+    font-size: 10rem;
+    top: 50px;
+    z-index: 3; /* اطمینان از اینکه عنوان بالاترین لایه است */
+}
+
+.button-container {
+    position: absolute;
+   top: 40rem; /* دکمه‌ها را در پایین قرار می‌دهد */
+    left: 20rem; /* مرکز کردن دکمه‌ها به صورت افقی */
+    transform: translateX(+s50%); /* تراز کردن به مرکز */
+    display: flex;
+    gap: 2rem; /* فاصله بین دکمه‌ها */
+    z-index: 2; /* اطمینان از اینکه دکمه‌ها بالاتر از تصاویر باشند */
+}
+
+.btn {
+    padding: 1rem 6rem;
+    background-color: var(--c);
+    color: var(--d);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Poppins-b";
+    font-size: 3rem;
+}
+.btm c{
+
+}
+
+.btn:hover {
+    background-color: var(--b); /* تغییر رنگ در هنگام هاور */
