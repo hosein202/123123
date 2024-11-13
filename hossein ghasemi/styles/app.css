@@ -4,29 +4,34 @@
     --c: #00adb5;
     --d: #eeeeee;
 }
-*{
-    
+
+* {
     text-decoration: none;
 }
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: inherit;
 }
 
+
+
 body {
     line-height: 1.6;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     font-family: "popins-b";
     background-color: var(--a);
     color: #eeeeee;
 }
 
 .header {
-    margin-top: 1.58rem;
+    margin-top: 2rem;
 }
 
 .container {
@@ -45,82 +50,200 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    font-size: 5rem;
+   
+   
+
 }
 
 .nav_logo {
     margin-right: auto;
     text-decoration: none;
     color: var(--d);
-   
-   
-    
+ 
+
 }
-a.nav_logo:hover{
+
+a.nav_logo:hover {
     color: var(--c);
     transition: 1s;
 
 }
-    
 
 .logo-p {
-   
-   font-size: 25px;
-   cursor: help;
-   font-family:'b';
-   
+    font-size: 25px;
+    cursor: help;
+    font-family: 'b';
+
 }
 
 .menue_list {
     display: flex;
-    gap: 2.5rem;
+    gap: 7.5rem;
     align-items: center;
     justify-content: flex-start;
     color: var(--d);
-    
+    list-style-type: none;
 }
 
 .class_list_item {
     font-family: "popins-s";
     color: #eeeeee;
+    font-size: 2rem;
+}
+.class_list_item:hover {
+    transition: 1s;
+    color: var(--c);
 }
 .loby {
-    position: relative;
+ 
+  
+}
+
+.bodo {
+    height: 20rem;
+    display: flex;
+    margin-top: 5rem;
+}
+
+
+
+.pic-f {
+    position: absolute;
+    right: 15rem;
+    top: 19rem;
+    z-index: 2;
+    width: 35rem;
+
+}
+.pic-f-f{
+    position: absolute;
+    right: 10rem;
+    top: 92rem;
+    z-index: 2;
+    width: 35rem;
 }
 
 .pic-b {
     position: absolute;
     right: 2rem;
-    top: 6rem;
-    z-index: 1;
+    top: 19rem;
+    z-index: 0;
+    width: 30rem;
+    opacity:45% ;
+   
+}
+.pic-b-b{
+    position: absolute;
+    right: 2rem;
+    top: 71rem;
+    z-index: 0;
+    width: 49rem;
+    opacity:45% ;
+
+}
+.pic-but{
+  
+width:25px ;
+color: #000000;
+position: absolute;
+bottom: 10px;
 }
 
-.pic-f {
+.pic-flash{
     position: absolute;
-    right: 15rem;
-    top: 15rem;
-    z-index: 2;
+    left: 19rem;
+    top: 27rem;
+    width: 5rem;
 }
+
+
 
 .title {
+    line-height: 7rem;
+    position: absolute;
+    left: 25rem;
+    font-size: 5rem;
+   height: 20rem;
+    z-index: 3;
+    list-style-type: none;
+    font-family: "popins-b";
+}
+
+.title-b {
     position: absolute;
     left: 20rem;
-    font-size: 10rem;
-    top: 50px;
-    z-index: 3; /* اطمینان از اینکه عنوان بالاترین لایه است */
+    font-size: 7rem;
+    top: 112px;
+    z-index: 3;
+    margin-top: 60rem;
+}
+
+.title-c {
+    position: absolute;
+    left: 20rem;
+    width: 44rem;
+    top: 113px;
+    z-index: 3;
+    margin-top: 70rem;
+}
+.color-title {
+    color: var(--c);
+}
+
+.cover {
+    background-size: cover;
+}
+
+.bot {
+    display: flex;
+    width: 100%;
+    margin-top: 120rem;
 }
 
 .button-container {
-    position: absolute;
-   top: 40rem; /* دکمه‌ها را در پایین قرار می‌دهد */
-    left: 20rem; /* مرکز کردن دکمه‌ها به صورت افقی */
-    transform: translateX(+s50%); /* تراز کردن به مرکز */
-    display: flex;
-    gap: 2rem; /* فاصله بین دکمه‌ها */
-    z-index: 2; /* اطمینان از اینکه دکمه‌ها بالاتر از تصاویر باشند */
+    position: relative;
+    top: 23rem;
+    left: 23rem;
+    
+}
+.btn-c {
+    padding: 1rem 3rem;
+    background-color: var(--c);
+    color: var(--d);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Poppins-b";
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    margin-left: 1rem;
+}
+.btn-c:hover{
+
+    transition: 1s;
+    box-shadow: 1px 1px 50px 1px  #000000;
 }
 
-.btn {
-    padding: 1rem 6rem;
+.btn-v {
+    padding: 1rem 3rem;
+    background-color: var(--c);
+    color: var(--d);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Poppins-b";
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.btn-v:hover {
+    
+}
+
+
+
+.b {
     background-color: var(--c);
     color: var(--d);
     border: none;
@@ -128,10 +251,15 @@ a.nav_logo:hover{
     cursor: pointer;
     font-family: "Poppins-b";
     font-size: 3rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-.btm c{
-
+pre{
+    font-family: "popins-b";
 }
-
-.btn:hover {
-    background-color: var(--b); /* تغییر رنگ در هنگام هاور */
+span{
+    color: var(--c);
+}
+.js{
+    text-decoration: none;
+    
+}

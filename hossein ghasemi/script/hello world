@@ -1,0 +1,4 @@
+function myFunction() {
+    document.getElementById("pic-b-b").style.display = "none";
+    document.getElementById("pic-f-f").style.display = "none";
+}
