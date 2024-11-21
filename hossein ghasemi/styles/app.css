@@ -20,8 +20,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 body {
     line-height: 1.6;
     font-size: 2.6rem;
@@ -51,30 +49,24 @@ body {
     align-items: center;
     width: 100%;
     font-size: 5rem;
-   
-   
-
+    position: static;
 }
 
 .nav_logo {
     margin-right: auto;
     text-decoration: none;
     color: var(--d);
- 
-
 }
 
 a.nav_logo:hover {
     color: var(--c);
     transition: 1s;
-
 }
 
 .logo-p {
     font-size: 25px;
     cursor: help;
     font-family: 'b';
-
 }
 
 .menue_list {
@@ -91,14 +83,13 @@ a.nav_logo:hover {
     color: #eeeeee;
     font-size: 2rem;
 }
+
 .class_list_item:hover {
     transition: 1s;
     color: var(--c);
 }
-.loby {
- 
-  
-}
+
+.loby {}
 
 .bodo {
     height: 20rem;
@@ -106,17 +97,15 @@ a.nav_logo:hover {
     margin-top: 5rem;
 }
 
-
-
 .pic-f {
     position: absolute;
     right: 15rem;
     top: 19rem;
     z-index: 2;
     width: 35rem;
-
 }
-.pic-f-f{
+
+.pic-f-f {
     position: absolute;
     right: 10rem;
     top: 92rem;
@@ -130,41 +119,38 @@ a.nav_logo:hover {
     top: 19rem;
     z-index: 0;
     width: 30rem;
-    opacity:45% ;
-   
+    opacity: 45%;
 }
-.pic-b-b{
+
+.pic-b-b {
     position: absolute;
     right: 2rem;
     top: 71rem;
     z-index: 0;
     width: 49rem;
-    opacity:45% ;
-
-}
-.pic-but{
-  
-width:25px ;
-color: #000000;
-position: absolute;
-bottom: 10px;
+    opacity: 45%;
 }
 
-.pic-flash{
+.pic-but {
+    width: 25px;
+    color: #000000;
+    position: absolute;
+    bottom: 10px;
+}
+
+.pic-flash {
     position: absolute;
     left: 19rem;
     top: 27rem;
     width: 5rem;
 }
 
-
-
 .title {
     line-height: 7rem;
     position: absolute;
     left: 25rem;
     font-size: 5rem;
-   height: 20rem;
+    height: 20rem;
     z-index: 3;
     list-style-type: none;
     font-family: "popins-b";
@@ -187,6 +173,7 @@ bottom: 10px;
     z-index: 3;
     margin-top: 70rem;
 }
+
 .color-title {
     color: var(--c);
 }
@@ -205,8 +192,8 @@ bottom: 10px;
     position: relative;
     top: 23rem;
     left: 23rem;
-    
 }
+
 .btn-c {
     padding: 1rem 3rem;
     background-color: var(--c);
@@ -219,10 +206,10 @@ bottom: 10px;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     margin-left: 1rem;
 }
-.btn-c:hover{
 
+.btn-c:hover {
     transition: 1s;
-    box-shadow: 1px 1px 50px 1px  #000000;
+    box-shadow: 1px 1px 50px 1px #000000;
 }
 
 .btn-v {
@@ -237,11 +224,7 @@ bottom: 10px;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.btn-v:hover {
-    
-}
-
-
+.btn-v:hover {}
 
 .b {
     background-color: var(--c);
@@ -253,13 +236,64 @@ bottom: 10px;
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
-pre{
+
+pre {
     font-family: "popins-b";
 }
-span{
+
+span {
     color: var(--c);
 }
-.js{
+
+.js {
     text-decoration: none;
+}
+
+.block {
+    position: relative;
+    margin-top: 100rem;
+    height: 70rem;
+    background-image: url(https://saitaruna.github.io/designers_portfolio/static/media/projects_bg.5063972a7490f321643a.png);
+    background-size: clamp(1440px, 100vw, 100vw);
+    background-repeat: repeat;
     
+
+}
+
+.bute {
+    
+    gap: 1rem;
+    display: flex;
+
+}
+
+.bute>button {
+ 
+
+    border-radius: 3rem;
+    padding: 1.5rem 4rem;
+    background-color: var(--c);
+    margin-top: 0.5rem;
+    border: none;
+   
+
+}
+
+.bute>button:hover {
+    transition: 1s;
+    box-shadow: 1px 1px 10px 1px #000000;
+
+}
+
+.title-k {
+  font-size: 12rem;
+  
+}
+.title-k>h1{
+
+}
+.block-wrapper{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
 }
