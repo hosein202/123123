@@ -7,6 +7,7 @@
 
 * {
     text-decoration: none;
+    font-family: popins-s;
 }
 
 html {
@@ -143,9 +144,9 @@ a.nav_logo:hover {
 
 .pic-flash {
     position: absolute;
-    left: 19rem;
-    top: 27rem;
-    width: 5rem;
+    left: 16rem;
+    top: 13rem;
+    width: 7rem;
 }
 
 .title {
@@ -153,7 +154,7 @@ a.nav_logo:hover {
     position: absolute;
     left: 25rem;
     font-size: 5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     z-index: 3;
     list-style-type: none;
     font-family: "popins-b";
@@ -253,9 +254,9 @@ span {
 }
 
 .block {
-    position: relative;
+
     margin-top: 100rem;
-    height: 78rem;
+    height: 61.5rem;
     background-image: url(https://saitaruna.github.io/designers_portfolio/static/media/projects_bg.5063972a7490f321643a.png);
     background-size: clamp(1440px, 100vw, 100vw);
     background-repeat: repeat;
@@ -278,6 +279,8 @@ span {
     background-color: var(--c);
     margin-top: 0.1rem;
     border: none;
+    text-shadow: #393e46 2px;
+    font-family: popins-b;
 }
 
 .a-big {
@@ -286,6 +289,7 @@ span {
     background-color: var(--c);
     margin-top: 0.1rem;
     border: none;
+    font-family: popins-b;
 }
 
 .bute>button:hover {
@@ -306,6 +310,7 @@ span {
 }
 
 .block-wrapper {
+    position: relative;
     padding-left: 20rem;
     padding-right: 20rem;
     padding-top: 10rem;
@@ -314,7 +319,7 @@ span {
 .kart-wrapper {
     display: flex;
     width: 100%;
-    height: 100rem;
+    height: 50rem;
     gap: 2rem;
 }
 
@@ -326,11 +331,17 @@ span {
     border-radius: 2rem;
     background-color: var(--b);
     opacity: 80%;
+    z-index: 3;
 
 
 
 }
-
+.kart>img
+{
+width: 2rem;
+height: 2rem;
+z-index: 4;
+}
 .lname-label {
     margin-left: 7rem;
 }
@@ -347,6 +358,7 @@ span {
     border-radius: 1rem;
     color: var(--d);
     background-color: #393e46;
+    font-family: popins-s;
 }
 
 .lname {
@@ -355,6 +367,8 @@ span {
     border-radius: 1rem;
     color: var(--d);
     background-color: #393e46;
+    font-family: popins-s;
+    font-size: 1rem;
 }
 
 .button {
@@ -392,16 +406,66 @@ span {
 }
 
 .former-wrapper {
-justify-content: end;
+    justify-content: end;
 }
-.title-img-wrapper{
+
+.title-img-wrapper {
     justify-content: start;
+
+}
+
+.title-img {
+    padding: 0rem 4rem;
+    margin-left: 2rem;
+    position: relative;
+    font-family: popins-b;
+
+}
+
+.img-fl {
+    transform: rotate(-50deg);
+    margin-bottom: 11rem;
+    right: 31rem;
+    top: 13rem;
+    position: absolute;
+    width: 7rem;
+}
+.foot{
+  padding: 10rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap:6rem;
+    font-size: 1.2rem;
+    align-items: center;
     
 }
-.title-img{
-    padding: 0rem 17rem;
- 
+
+.level {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.8rem;
 }
-.img-fl{
+.level-c{
     
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    
+    background-color: var(--b);
+   border-radius: 100%;
+   padding: 6px;
+    box-sizing: border-box ;
+}
+
+.level img {
+    width: 1.8rem;
+}
+
+.level-c img {
+    width: 1.8rem;
 }
